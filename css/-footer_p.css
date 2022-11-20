@@ -1,0 +1,141 @@
+footer {
+  width: 100%;
+  height: 252px;
+  background: #2f303a;
+  position: absolute;
+  top: 1628px;
+}
+
+.WebStudio_footer {
+  text-decoration: none;
+  position: absolute;
+  left: 215px;
+  top: 60px;
+  font-weight: 700;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.WebStudio_footer:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.logo_2_element_footer {
+  color: white;
+}
+
+.mail_tel_footer {
+  position: absolute;
+  left: 215px;
+  top: 120px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+.location {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.mail_footer {
+  font-weight: 400;
+  font-size: 14px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.mail_footer:hover {
+  color: #2196f3;
+}
+
+.tel_footer {
+  font-weight: 400;
+  font-size: 14px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.tel_footer:hover {
+  color: #2196f3;
+}
+
+.join_in {
+  font-weight: 700;
+  font-size: 14px;
+  position: absolute;
+  left: 516px;
+  top: 70px;
+  color: white;
+}
+
+.icons {
+  position: absolute;
+  left: 516px;
+  top: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 160px;
+}
+
+.instagram_icon {
+  fill: white;
+  position: absolute;
+  top: 13px;
+  left: 12px;
+  z-index: 2;
+}
+
+.twitter_icon {
+  fill: white;
+  position: absolute;
+  top: 13px;
+  left: 65px;
+  z-index: 2;
+}
+
+.facebook_icon {
+  fill: white;
+  position: absolute;
+  top: 13px;
+  left: 122px;
+  z-index: 2;
+}
+
+.in_icon {
+  fill: white;
+  position: absolute;
+  top: 13px;
+  left: 172px;
+  z-index: 2;
+}
+
+.circle {
+  fill: rgba(255, 255, 255, 0.1019607843);
+  position: absolute;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.circle:hover {
+  fill: #2196f3;
+}
+
+.WebStudio:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}

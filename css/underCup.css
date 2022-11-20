@@ -1,0 +1,59 @@
+.information{
+	position: absolute;
+	width: 1170px;
+	height: 251px;
+	left: 20%;
+	top: 774px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.svg_block{
+	background: #F5F4FA;
+	border-radius: 4px;
+	width: 270px;
+	height: 120px;
+	transition: 0.2s;
+}
+.svg_block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: -30px;
+}
+.text_block_underCup{
+	width: 270px;
+}
+.p_block{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+
+}
+.underP_block{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+position: relative;
+top: 10px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+.svg_block:hover{
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 4px 1px rgba(0, 0, 0, 0.2);
+	background: #efeef7;
+}

@@ -1,0 +1,295 @@
+.our_team {
+  position: absolute;
+  width: 100%;
+  height: 788px;
+  top: 1800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f5f4fa;
+  padding: 0 15.5%;
+}
+.nashTeam{
+  position: absolute;
+  top: 70px;
+  left: 43.5%;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.photo_team {
+  width: 270px;
+  height: 260px;
+
+}
+
+.sub_team {
+  width: 270px;
+  height: 428px;
+  margin: 30px;
+  background: white;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+}
+
+.name_team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+
+.work_team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+  position: relative;
+  top: 35px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+.ob_el_1 {
+  width: 0;
+  height: 0;
+}
+.ob_el_1:hover .Ellipse_miniIcon_1 {
+  fill: #2196f3;
+}
+.ob_el_1:hover .inst_elips {
+  fill: white;
+}
+
+.ob_el_2 {
+  width: 0;
+  height: 0;
+}
+.ob_el_2:hover .twiter_elips {
+  fill: white;
+}
+.ob_el_2:hover .Ellipse_miniIcon_2 {
+  fill: #2196f3;
+}
+
+.ob_el_3 {
+  width: 0;
+  height: 0;
+}
+.ob_el_3:hover .facebook_elips {
+  fill: white;
+}
+.ob_el_3:hover .Ellipse_miniIcon_3 {
+  fill: #2196f3;
+}
+
+.ob_el_4 {
+  width: 0;
+  height: 0;
+}
+.ob_el_4:hover .Ellipse_miniIcon_4 {
+  fill: #2196f3;
+}
+.ob_el_4:hover .linkedin_elipse {
+  fill: white;
+}
+
+.Ellipse_miniIcon_1 {
+  position: relative;
+  top: 56px;
+  left: 30px;
+  fill: none;
+}
+
+.inst_elips {
+  position: relative;
+  bottom: -20px;
+  left: 42px;
+  fill: #afb1b8;
+  transition: 0.3s;
+}
+
+.twiter_elips {
+  position: relative;
+  bottom: -20px;
+  left: 98px;
+  fill: #afb1b8;
+  transition: 0.3s;
+}
+
+.Ellipse_miniIcon_2 {
+  position: relative;
+  top: 55px;
+  left: 85px;
+  fill: none;
+}
+
+.Ellipse_miniIcon_3 {
+  position: relative;
+  fill: none;
+  top: 55px;
+  left: 140px;
+}
+
+.facebook_elips {
+  fill: #afb1b8;
+  position: relative;
+  bottom: -20px;
+  left: 152px;
+  transition: 0.3s;
+}
+
+.Ellipse_miniIcon_4 {
+  position: relative;
+  top: 56px;
+  left: 196px;
+  fill: none;
+}
+
+.linkedin_elipse {
+  position: relative;
+  bottom: -20px;
+  left: 210px;
+  fill: #afb1b8;
+  transition: 0.3s;
+}
+
+.visets {
+  width: 100%;
+  left: 0%;
+  height: 372px;
+  position: absolute;
+  top: 2500px;
+  background: white;
+}
+
+.visites_text {
+  position: absolute;
+  left: 40%;
+  top: 80px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.logotipes {
+  transition: 0.3s;
+  padding: 150px 390px;
+  width: 100%;
+  height: 92px;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logodi_1:hover .logotipes_1_rect_stroke {
+  stroke: #2196f3;
+  transition: 0.3s;
+}
+.logodi_1:hover .logotipes_1_path {
+  fill: #2196f3;
+  transition: 0.3s;
+}
+
+.logotipes_2:hover .logotipes_class_path_2 {
+  fill: #2196f3;
+  transition: 0.3s;
+}
+.logotipes_2:hover .logotipes_class_fill_2 {
+  stroke: #2196f3;
+  transition: 0.3s;
+}
+
+.logotipes_3:hover .logotipes_path_3 {
+  fill: #2196f3;
+  transition: 0.3s;
+}
+.logotipes_3:hover .logotipes_rect_3 {
+  stroke: #2196f3;
+  transition: 0.3s;
+}
+
+.logotipes_4:hover .logotipes_path_4 {
+  fill: #2196f3;
+  transition: 0.3s;
+}
+.logotipes_4:hover .logotipes_rect_4 {
+  stroke: #2196f3;
+  transition: 0.3s;
+}
+
+.logotipes_5:hover .logotipes_path_5 {
+  fill: #2196f3;
+  transition: 0.3s;
+}
+.logotipes_5:hover .logotipes_rect_5 {
+  stroke: #2196f3;
+  transition: 0.3s;
+}
+
+.logotipes_6:hover .logotipes_rect_6 {
+  stroke: #2196f3;
+  transition: 0.3s;
+}
+.logotipes_6:hover .logotipes_path_6 {
+  fill: #2196f3;
+  transition: 0.3s;
+}

@@ -1,0 +1,98 @@
+$var1: #FFFFFF
+$var2: #2196F3
+$var3: #757575
+
+header 
+	position: absolute
+	width: 1600px
+	height: 80px
+	left: 0px
+	top: 0px
+	background: @var1
+	/* identical to box height */
+	> nav > ul 
+		text-decoration: none
+		list-style: none
+		position: absolute
+		width: 286px
+		height: 48px
+		left: 551px
+		top: 16px
+		padding: 0
+		margin: 7px 0 0 0
+		> li 
+			display: inline-block
+			height: 30px
+			margin: 10px
+			font-family: 'Roboto', sans-serif
+			transition: 0.1s
+			&::selection 
+				background: black
+			
+			&:hover 
+				border-bottom: solid @var2 4px 
+				cursor: pointer
+				color: @var2
+			
+		
+	
+
+.logo_header 
+	cursor: pointer
+	position: absolute
+	width: 145px
+	height: 31px
+	left: 215px
+	top: 10px
+	font-family: 'Raleway'
+	font-style: normal
+	font-weight: 700
+	font-size: 26px
+	line-height: 31px
+	letter-spacing: 0.03em
+	color: @var2
+	&_span 
+		cursor: pointer
+		color: black
+	
+
+.contact_header 
+	position: absolute
+	width: 442px
+	height: 16px
+	left: 1343px
+	top: 30px
+	&_element 
+		margin: 0 20px
+	
+
+.mail_header, .telto_header 
+	display: inline-block
+
+.svg_mail_header, .svg_tel_header 
+	fill: @var3
+	transition: 0.1s
+
+.a_tel_header, .a_mail_header 
+	text-decoration: none
+	color: @var3
+	transition: 0.2s
+	font-family: 'Roboto'
+	font-style: normal
+	font-weight: 500
+	font-size: 14px
+	line-height: 16px
+	letter-spacing: 0.02em
+
+.mail_header:hover .a_mail_header 
+	color: @var2
+
+.mail_header:hover .svg_mail_header 
+	fill: @var2
+
+.telto_header:hover .a_tel_header 
+	color: @var2
+
+.telto_header:hover .svg_tel_header 
+	fill: @var2
+

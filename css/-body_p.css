@@ -1,0 +1,114 @@
+hr {
+  position: relative;
+  top: 80px;
+}
+
+.menu_button {
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  top: 174px;
+  left: 35%;
+}
+
+.choose {
+  padding: 6px 22px;
+  background: #f5f4fa;
+  color: black;
+  font-size: 16px;
+  border: none;
+  border-radius: 6%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.choose:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background: #2196f3;
+  color: white;
+  -webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.all {
+  padding: 6px 22px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6%;
+  background: #2196f3;
+  color: white;
+  -webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.menu_design {
+  width: 1170px;
+  height: 1360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: absolute;
+  left: 19%;
+  top: 255px;
+}
+
+.design {
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eeeeee;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.design:hover {
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.design:hover .advertising {
+  background: rgba(33, 150, 243, 0.9);
+  opacity: 1;
+}
+
+.advertising {
+  position: relative;
+  top: -339px;
+  left: 0;
+  width: 370px;
+  height: 294px;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 63px 24px;
+  letter-spacing: 0.03em;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+
+.profesion {
+  font-weight: 700;
+  font-size: 18px;
+  position: relative;
+  left: 24px;
+  top: 20px;
+}
+
+.Web {
+  font-size: 16px;
+  position: relative;
+  left: 24px;
+  top: 40px;
+  color: #757575;
+}
+Footer
+© 2022 GitHub, Inc.
