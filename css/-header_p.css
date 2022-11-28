@@ -4,24 +4,29 @@
   font-weight: 500;
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
 }
 
 .WebStudio {
-  cursor: pointer;
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 26px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #2196F3;
+ position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+;
 }
 
 .logo_2_element {
@@ -63,7 +68,6 @@ a {
 
 .Portfolia {
   color: #2196f3;
-  border-bottom: 4px solid #2196f3;
 }
 
 .mail_tel {
@@ -78,7 +82,14 @@ a {
   left: 70%;
   top: 32px;
 }
-
+.social_network.social_network_mail{
+  width: 181px;
+  transition: 0.5s;
+}
+.social_network.social_network_mail > svg{
+  position: relative;
+  top: 3px;
+}
 .social_network {
   width: 161px;
   display: -webkit-box;
@@ -91,12 +102,23 @@ a {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-
+.social_network_tel{
+  transition: 0.5s;
+}
 .mail {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-.mail:hover {
+.social_network_mail:hover{
+  fill: #2196f3 ;
+}
+.social_network_mail:hover .mail {
+  color: #2196f3;
+}
+.social_network_tel:hover{
+  fill: #2196f3 ;
+}
+.social_network_tel:hover .tel {
   color: #2196f3;
 }
 
