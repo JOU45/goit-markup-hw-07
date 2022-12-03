@@ -7,6 +7,11 @@
 }
 body{
   overflow-x: hidden;
+  min-width: 1800px !important;
+}
+html{
+  min-width: 1800px !important;
+  max-width: 200000px;
 }
 
 .WebStudio {

@@ -48,7 +48,7 @@
   height: 23px;
   left: 40px;
   top: 40px;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -127,7 +127,7 @@ textarea {
   resize: none;
 }
 
-input {
+form > input {
   outline: none;
   text-decoration: none;
   padding-left: 40px;
@@ -154,7 +154,7 @@ input {
   height: 14px;
   left: 40px;
   top: 143px;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -169,7 +169,7 @@ input {
   height: 14px;
   left: 40px;
   top: 213px;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -184,7 +184,7 @@ input {
   height: 14px;
   left: 40px;
   top: 279px;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -237,7 +237,7 @@ input {
   position: absolute;
   left: 80px;
   top: 442px;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -263,7 +263,7 @@ input {
   top: 491px;
   left: 164px;
   color: white;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

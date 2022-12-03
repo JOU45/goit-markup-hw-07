@@ -226,7 +226,7 @@ color: #757575;
 
 .logotipes {
   transition: 0.3s;
-  padding: 150px 390px;
+  padding: 7% 18%;
   width: 100%;
   height: 92px;
   position: absolute;
@@ -239,12 +239,18 @@ color: #757575;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.logotipes > svg {
+  margin: 0 0px;
+}
+.logotipes_1_rect_stroke{
+  stroke: #AFB1B8 ;
+}
 
-.logodi_1:hover .logotipes_1_rect_stroke {
+.logotipes_1:hover .logotipes_1_rect_stroke {
   stroke: #2196f3;
   transition: 0.3s;
 }
-.logodi_1:hover .logotipes_1_path {
+.logotipes_1:hover .logotipes_1_path {
   fill: #2196f3;
   transition: 0.3s;
 }

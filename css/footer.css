@@ -167,11 +167,11 @@ color: rgba(255, 255, 255, 0.6);
   position: absolute;
   width: 145px;
   height: 16px;
-  left: 28%;
+  left: 30%;
   top: 75px;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -227,6 +227,7 @@ color: #FFFFFF;
   margin-top: 20px;
   left: -150px;
   position: relative;
+  padding-left: 80px;
   width: 358px;
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -235,9 +236,13 @@ border-radius: 4px;
 background: #2F303A;
 
 }
+.Email{
+  color: white !important;
+}
 .endopodp > input::placeholder{
-  position: relative;
-  left: 0px;
+  position: absolute;
+  margin-left: -50px;
+  margin-top: 3%;
 }
 footer > div > button{
   cursor: pointer;
@@ -281,17 +286,17 @@ footer>div>button:hover .but-svg{
 
 .footer_inst_div{
   position: relative;
-  left: 20px;
+  left: 30px;
 }
 .footer_twiter_div{
-  left: 20px;
+  left: 30px;
   position: relative;
 }
 .footer_facebook_div{
-  left: 20px;
+  left: 30px;
   position: relative;
 }
 .footer_in_div{
-  left: 20px;
+  left: 30px;
   position: relative;
 }
